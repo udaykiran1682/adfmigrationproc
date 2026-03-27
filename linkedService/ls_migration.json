@@ -1,0 +1,21 @@
+{
+	"name": "ls_migration",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "localhost\\SQLEXPRESS",
+			"database": "MIGRATIONPROJECT",
+			"encrypt": "optional",
+			"trustServerCertificate": true,
+			"authenticationType": "SQL",
+			"userName": "migration",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJmYmNhOGExMC05MjNkLTQ1NmEtYjY2MC1lNjdkYzA3MmM3YjkiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "selfhostedonprmtocld",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

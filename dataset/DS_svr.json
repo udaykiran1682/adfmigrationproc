@@ -1,0 +1,13 @@
+{
+	"name": "DS_svr",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_migration",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

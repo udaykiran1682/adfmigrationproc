@@ -1,0 +1,9 @@
+{
+	"name": "dfdtmigrationoprm01",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c446cbd0-5134-4dc6-bd40-0e51a71ffa8a",
+		"tenantId": "4fe58317-c042-461a-80cf-c2c202b2741b"
+	}
+}
